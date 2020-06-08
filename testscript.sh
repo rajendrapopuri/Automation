@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=$1
-b=$2
+a=$NUMBERONE
+b=$NUMBERTWO
 
-echo "Total=" $(( $1 + $2)) 
+echo "Total= " $(( $a + $b)) 
